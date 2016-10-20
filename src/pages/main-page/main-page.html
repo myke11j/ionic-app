@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{mainPage.title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides [options]="mainPage.slideOptions">
+    <ion-slide *ngFor="let slide of mainPage.slides">
+      <img [src]="slide"/>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

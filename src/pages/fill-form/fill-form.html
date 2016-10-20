@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{fillForm.title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label>{{fillForm.input1.name}}</ion-label>
+      <ion-datetime displayFormat="{{fillForm.input1.dateSelectFormat}}" pickerFormat="{{fillForm.input1.dateSelectFormat}}" [(ngModel)]="fillForm.input1.value"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>{{fillForm.input2.name}}</ion-label>
+      <ion-input  type="tel" placeholder="Input2" [(ngModel)]="fillForm.input2.value"
+      (ngModelChange)="fillForm.input2.value=$event"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>{{fillForm.input3.name}}</ion-label>
+      <ion-input type="tel" placeholder="Input3" [(ngModel)]="fillForm.input3.value"
+      (blur)="addCurrency(fillForm.input3)"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>{{fillForm.input4.name}}</ion-label>
+      <ion-input type="tel" placeholder="Input4" [(ngModel)]="fillForm.input4.value"
+      (blur)="addCurrency(fillForm.input4)"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>{{fillForm.input5.name}}</ion-label>
+      <ion-input type="tel" placeholder="Input5" [(ngModel)]="fillForm.input5.value"
+      (ngModelChange)="fillForm.input5.value=$event"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>{{fillForm.input6.name}}</ion-label>
+      <ion-toggle [(ngModel)]="fillForm.input6.value"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>{{fillForm.input7.name}}</ion-label>
+      <ion-select [(ngModel)]="fillForm.input7.value" value="fillForm.input7.value">
+        <ion-option value="{{fillForm.input7.option1}}">{{fillForm.input7.option1}}</ion-option>
+        <ion-option value="{{fillForm.input7.option2}}">{{fillForm.input7.option2}}</ion-option>
+        <ion-option value="{{fillForm.input7.option3}}">{{fillForm.input7.option3}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>{{fillForm.input8.name}}</ion-label>
+      <ion-input type="text" placeholder="Input8" [(ngModel)] = "fillForm.input8.value"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>{{fillForm.input9.name}}</ion-label>
+      <ion-datetime displayFormat="{{fillForm.input9.timeFormat}}" pickerFormat="{{fillForm.input9.timeFormat}}" [(ngModel)]="fillForm.input9.value"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>{{fillForm.input10.name}}</ion-label>
+      <ion-select [(ngModel)]="fillForm.input10.value">
+        <ion-option value="{{fillForm.input10.option1}}">{{fillForm.input10.option1}}</ion-option>
+        <ion-option value="{{fillForm.input10.option2}}">{{fillForm.input10.option2}}</ion-option>
+        <ion-option value="{{fillForm.input10.option3}}">{{fillForm.input10.option3}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>{{fillForm.input11.name}}</ion-label>
+      <ion-toggle [(ngModel)]="fillForm.input11.value"></ion-toggle>
+    </ion-item>
+
+    <button ion-button icon-left class="fill-form-submit-btn" (click)="submitForm()">
+      <ion-icon name="camera"></ion-icon>
+      {{fillForm.input12.name}}
+    </button>
+
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,20 @@
+{
+  "fillForm" : {
+    "title" : "Fill Form",
+    "input1" : "Input1",
+    "input2" : "Input2",
+    "input3" : "Input3",
+    "input4" : "Input4",
+    "input5" : "Input5",
+    "input6" : "Input6",
+    "input7" : "Input7",
+    "input8" : "Input8",
+    "input9" : "Input9",
+    "input10" : "Input10",
+    "input11" : "Input11",
+    "submit" : "Submit",
+    "toastMsg1" : " is Mandatory",
+    "toastMsg2" : "Please Select An Image",
+    "toastMsg3" : "Data Saved Successfully"
+    }
+}

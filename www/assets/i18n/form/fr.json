@@ -1,0 +1,20 @@
+{
+  "fillForm" : {
+    "title" : "Remplir le formulaire",
+    "input1" : "entrée 1",
+    "input2" : "entrée 2",
+    "input3" : "entrée 3",
+    "input4" : "entrée 4",
+    "input5" : "entrée 5",
+    "input6" : "entrée 6",
+    "input7" : "entrée 7",
+    "input8" : "entrée 8",
+    "input9" : "entrée 9",
+    "input10" : "entrée 10",
+    "input11" : "entrée 11",
+    "submit" : "soumettre",
+    "toastMsg1" : " est obligatoire",
+    "toastMsg2" : "S'il vous plaît sélectionner une image",
+    "toastMsg3" : "Les données sauvegardées avec succès"
+    }
+}

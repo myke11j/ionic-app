@@ -1,0 +1,20 @@
+{
+  "fillForm" : {
+    "title" : "llenar el Formulario",
+    "input1" : "Entrada 1",
+    "input2" : "Entrada 2",
+    "input3" : "Entrada 3",
+    "input4" : "Entrada 4",
+    "input5" : "de entrada 5",
+    "input6" : "Entrada 6",
+    "input7" : "Entrada 7",
+    "input8" : "Entrada 8",
+    "input9" : "Entrada 9",
+    "input10" : "Entrada 10",
+    "input11" : "Entrada 11",
+    "submit" : "Enviar",
+    "toastMsg1" : " es obligatorio",
+    "toastMsg2" : "Por favor, seleccione una imagen",
+    "toastMsg3" : "Los datos guardados con éxito"
+    }
+}
