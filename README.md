@@ -1,21 +1,16 @@
-This is a starter template for [Ionic 2](http://ionicframework.com/docs/v2/) projects.
+This is a mock ionic2 app project
 
-## How to use this template
+Fist of make sure you have ionic and cordova installed in your system.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
+#intsall beta ionic 2 globally
+npm intsall -g ionic@beta
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
+npm intsall -g cordova
 
-### With the Ionic CLI:
+Then, to run it, cd into `falcon2` and run:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs --v2
-```
-
-Then, to run it, cd into `myTabs` and run:
+npm intsall
+then
 
 ```bash
 $ ionic platform add ios
@@ -23,4 +18,3 @@ $ ionic run ios
 ```
 
 Substitute ios for android if not on a Mac.
-
