@@ -1,4 +1,4 @@
-#!!!Deprecated!!!
+# !!!Deprecated!!!
 
 This is a mock ionic2 app project
 
