@@ -1,3 +1,5 @@
+#!!!Deprecated!!!
+
 This is a mock ionic2 app project
 
 Fist of make sure you have ionic and cordova installed in your system.
